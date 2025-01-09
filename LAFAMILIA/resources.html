@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resources & Guides</title>
+  <link rel="stylesheet" href="resourcestyle.css">
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <img src="logo.png" alt="La Familia Logo">
+      </div>
+
+<nav>
+  <ul>
+      <li><a href="login.html">Log in</a></li>
+      <li><a href="get-involved.html">Get Involved</a></li>
+      <li><a href="resources.html">Resources & Guides</a></li>
+      <li><a href="blog.html">Blog / News</a></li>
+      <li><a href="about.html">About Us</a></li>
+  </ul>
+</nav>
+<div class="search">
+  <input type="text" placeholder="Search">
+  <button>🔍</button>
+</div>
+</header>
+</div>
+  <main>
+    <h1>Resources & Guides</h1>
+    <section id="intro">
+      <p>Explore our carefully curated resources and step-by-step guides designed to assist you in achieving your goals.</p>
+    </section>
+    <section id="guides">
+      <h2>Step-by-Step Guides</h2>
+      <ul class="card-list">
+        <section class="pic">
+          <div class="pic-content">
+            <div class="slideshow-container">
+              <img class="slide" src="image1.jpg" alt="Image 1">
+              <img class="slide" src="image2.png" alt="Image 2">
+              <img class="slide" src="image3.png" alt="Image 3">
+              <img class="slide" src="image4.png" alt="Image 4">
+              <img class="slide" src="image5.jpg" alt="Image 5">
+            </div>
+          </div>
+        </section>
+        <li class="card">
+          <h3>Getting Started with Fundraising</h3>
+          <p>Discover the basics of launching a successful fundraising campaign. From planning to execution, this guide covers all the essentials.</p>
+          <ul>
+            <li>Set achievable fundraising goals</li>
+            <li>Develop a clear strategy</li>
+            <li>Leverage social media for outreach</li>
+          </ul>
+          <a href="https://philea.issuelab.org/resources/35067/35067.pdf" class="button" target="_blank">Learn More</a>
+        </li>
+        <li class="card">
+          <h3>Effective Volunteer Management</h3>
+          <p>Learn the art of managing volunteers with efficiency and compassion. This guide will help you build and sustain a motivated team.</p>
+          <ul>
+            <li>Foster teamwork and collaboration</li>
+            <li>Define roles and responsibilities</li>
+            <li>Address challenges with confidence</li>
+          </ul>
+          <a href="https://www.salto-youth.net/downloads/toolbox_tool_download-file-1612/SEEYN%20VOLUNTEER%20MANAGEMENT%20HANDBOOK.pdf" class="button" target="_blank">Learn More</a>
+        </li>
+        <li class="card">
+          <h3>Hosting Successful Events</h3>
+          <p>Plan and execute impactful events that leave a lasting impression. This guide is your ultimate event planning companion.</p>
+          <ul>
+            <li>Develop a detailed timeline</li>
+            <li>Manage budgets and resources effectively</li>
+            <li>Engage your audience with unique experiences</li>
+          </ul>
+          <a href="https://iccbelfast.com/blogs/how-to-host-an-event#ow-to-be-the-perfect-event-host" class="button" target="_blank">Learn More</a>
+        </li>
+      </ul>
+    </section>
+    
+  </main>
+  <main>
+    <section id="resources">
+      <h2>Resource Library</h2>
+      <section id="fundraising-toolkit" class="resource-content">
+        <h3>Fundraising Toolkit</h3>
+        <p>This toolkit provides step-by-step guidance on how to organize a successful fundraising campaign. Learn how to set realistic goals, engage donors, and track your progress.</p>
+        <ul>
+          <li>How to create compelling donation appeals</li>
+          <li>Tips for hosting fundraising events</li>
+          <li>Using social media to boost your campaign</li>
+        </ul>
+      </section>
+
+      <section id="volunteer-handbook" class="resource-content">
+        <h3>Volunteer Handbook</h3>
+        <p>The Volunteer Handbook is your go-to guide for understanding roles, responsibilities, and best practices. It includes tips for effective teamwork and communication.</p>
+        <ul>
+          <li>Guidelines for new volunteers</li>
+          <li>Team communication and support tips</li>
+          <li>Problem-solving strategies</li>
+        </ul>
+      </section>
+
+      
+    <section id="event-planning-checklist" class="resource-content">
+      <h3>Event Planning Checklist</h3>
+      <p>Planning an event? This checklist ensures you don’t miss a single detail, from concept to execution. Stay organized and on track with these essential steps.</p>
+      <ul>
+        <li>Setting a clear objective</li>
+        <li>Building a timeline</li>
+        <li>Managing budgets and logistics</li>
+      </ul>
+    </section>
+  
+    </section>
+   
+  </main>
+  <script>
+    let currentSlide = 0;
+    const slides = document.querySelectorAll('.slide');
+    
+    function showSlide() {
+      slides.forEach(slide => slide.style.display = 'none');
+      slides[currentSlide].style.display = 'block';
+      currentSlide = (currentSlide + 1) % slides.length;
+    }
+    
+    setInterval(showSlide, 2000); // Change slide every 2 seconds
+    </script>
+
+  <footer>
+    <p>&copy; 2025 Resources & Guides. All rights reserved.</p>
+    <a href="about.html">Contact Us</a><br>
+    <a href="index.html">Back to Home</a>
+  </footer>
+</body>
+</html>
